@@ -1,0 +1,8 @@
+SCREEN_SIZE = (720, 1280)
+GRID_SIZE = 8
+GRID_LINE_WIDTH = 3
+BLOCK_SIZE = (SCREEN_SIZE[0] // (GRID_SIZE + 2)) - 1  # Slightly smaller to fit next pieces
+BLOCK_SIZE_SMALL = (BLOCK_SIZE // 1.75)
+NEXT_PIECES_COUNT = 3
+
+DEBUG = True
